@@ -1,4 +1,4 @@
-#main, #main .pulse-component div, #main .group-header-component div, .board-content-component, #main #content, #main #header div, #main .leftnav, #main #content, #main #header_top_nav_profile .top-profile-pic-wrapper, #main #header_top_nav_profile .top-profile-arrow-wrapper, #main .ds-menu-dialog, #main .q-list-wrapper, #main .person-select-button, #main .clear-button, #main .save-button {
+#main, #main .pulse-component div, #main .group-header-component div, .board-content-component, #main #content, #main #header div, #main .leftnav, #main #content, #main #header_top_nav_profile .top-profile-pic-wrapper, #main #header_top_nav_profile .top-profile-arrow-wrapper, #main .ds-menu-dialog, #main .q-list-wrapper, #main .person-select-button, #main .clear-button, #main .save-button, #main #inbox, #main #inbox div {
   background: #1a2632 !important;
 }
 
@@ -10,7 +10,7 @@
   background: rgb(196, 196, 196);
 }
 
-#main span {
+#main span, #main p {
   color: rgb(88, 96, 105);
 }
 
@@ -20,4 +20,8 @@
 
 #main .pulse-right-indicator, #main .cell-component, #main .column-header, #main .name-column-header, #main .pulse-component {
   border-color: grey !important;
+}
+
+#main #inbox .expander_toggle:before {
+  background-image: none;
 }
